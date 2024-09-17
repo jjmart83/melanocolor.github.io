@@ -1,13 +1,16 @@
+/* Estilo general */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
+    color: #333;
 }
 
+/* Estilo para el encabezado */
 header {
-    background-color: #333;
-    color: white;
+    background-color: #000000; /* Negro */
+    color: #ffcc00; /* Amarillo */
     padding: 1em 0;
     text-align: center;
 }
@@ -23,10 +26,15 @@ nav ul li {
 }
 
 nav ul li a {
-    color: white;
+    color: #ffcc00; /* Amarillo */
     text-decoration: none;
 }
 
+nav ul li a:hover {
+    color: #ff3300; /* Rojo para el hover */
+}
+
+/* Secciones */
 section {
     padding: 2em;
     margin: 2em 0;
@@ -35,12 +43,45 @@ section {
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
 }
 
+/* Colores para los títulos de las secciones */
+h2 {
+    color: #ff3300; /* Rojo */
+}
+
+section#inicio {
+    background-color: #ffcc00; /* Amarillo */
+    color: #000000; /* Negro */
+}
+
+section#acerca, section#polimorfismo, section#quehacemos, section#enfoque, section#impacto, section#contacto {
+    background-color: #fff; /* Fondo blanco para legibilidad */
+    color: #333; /* Texto gris oscuro para el contenido */
+}
+
+/* Estilo del pie de página */
 footer {
-    background-color: #333;
-    color: white;
+    background-color: #000000; /* Negro */
+    color: #ffcc00; /* Amarillo */
     text-align: center;
     padding: 1em 0;
-    position: fixed;
+    position: relative;
     bottom: 0;
     width: 100%;
 }
+
+/* Estilos responsivos */
+@media only screen and (max-width: 600px) {
+    header {
+        font-size: 1.5em;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    section {
+        padding: 1em;
+    }
+}
+
