@@ -101,3 +101,15 @@ footer {
     background-color: #ff9900; /* Cambia de color al pasar el cursor */
     color: white;
 }
+
+.imagenes-lugares {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.imagenes-lugares img {
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
