@@ -85,3 +85,19 @@ footer {
     }
 }
 
+.boton-regreso {
+    display: inline-block;
+    background-color: #ffcc00; /* Color amarillo */
+    color: #000; /* Texto negro */
+    padding: 10px 15px;
+    margin-top: 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.boton-regreso:hover {
+    background-color: #ff9900; /* Cambia de color al pasar el cursor */
+    color: white;
+}
