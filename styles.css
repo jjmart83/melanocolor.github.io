@@ -113,3 +113,18 @@ footer {
     border-radius: 10px;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
 }
+
+.imagen-inicio {
+    width: 100%;             /* Ocupar el 100% del contenedor */
+    max-width: 400px;         /* Máximo ancho de 400px */
+    margin: 20px auto;        /* Centrar la imagen horizontalmente */
+    display: block;           /* Asegura que sea un elemento de bloque */
+    border-radius: 15px;      /* Esquinas redondeadas */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra para darle profundidad */
+    transition: transform 0.3s ease; /* Animación de transformación suave */
+}
+
+/* Efecto hover para que la imagen crezca ligeramente cuando se pasa el ratón */
+.imagen-inicio:hover {
+    transform: scale(1.05);   /* La imagen crece un 5% cuando se pasa el cursor */
+}
