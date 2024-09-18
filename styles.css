@@ -128,3 +128,25 @@ footer {
 .imagen-inicio:hover {
     transform: scale(1.05);   /* La imagen crece un 5% cuando se pasa el cursor */
 }
+
+/* Estilo para las imágenes de polimorfismo de color */
+.imagenes-polimorfismo {
+    display: flex;
+    justify-content: center;  /* Centra las imágenes horizontalmente */
+    flex-wrap: wrap;          /* Permite que las imágenes se ajusten a varias líneas si es necesario */
+    gap: 20px;                /* Espacio entre las imágenes */
+    margin-top: 20px;         /* Espacio superior respecto al texto */
+}
+
+.imagen-polimorfismo {
+    max-width: 300px;         /* Limitar el ancho máximo de las imágenes */
+    width: 100%;              /* Asegurar que las imágenes se ajusten al contenedor */
+    border-radius: 10px;      /* Bordes redondeados */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);  /* Sombra para darle profundidad */
+    transition: transform 0.3s ease;  /* Transición suave para animación */
+}
+
+/* Efecto hover para las imágenes */
+.imagen-polimorfismo:hover {
+    transform: scale(1.05);  /* Las imágenes crecen ligeramente cuando el cursor pasa sobre ellas */
+}
