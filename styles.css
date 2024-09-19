@@ -178,3 +178,12 @@ footer {
 .imagen-enfoque:hover {
     transform: scale(1.05);  /* Las imágenes crecen ligeramente cuando el cursor pasa sobre ellas */
 }
+
+.imagen-novedad {
+    width: 100%;              /* Ocupar el 100% del contenedor */
+    max-width: 600px;         /* Limitar el ancho máximo a 600px */
+    margin: 20px auto;        /* Centrar la imagen horizontalmente */
+    display: block;           /* Asegura que la imagen sea un bloque y se alinee centrada */
+    border-radius: 10px;      /* Bordes redondeados */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);  /* Sombra suave */
+}
