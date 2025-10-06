@@ -226,6 +226,8 @@ footer {
 
 /* Tema oscuro opcional (si el SO lo usa) */
 @media (prefers-color-scheme: dark){
-  .news-card{ background:#0b1220; border-color:#334155; }
+  .news-card{ background:#111827; border-color:#374151; }
   .news-thumb{ background:#0f172a; }
+  .news-title, .news-excerpt, .news-body{ color:#e5e7eb; }   /* texto claro */
+  .news-link{ color:#fbbf24; text-decoration: underline; }   /* link visible */
 }
